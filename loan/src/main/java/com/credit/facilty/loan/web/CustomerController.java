@@ -47,7 +47,6 @@ public class CustomerController {
 	public ResponseEntity<RestResponse<CustomerDto>> saveCustomer(@RequestBody CustomerSaveDto customerSaveDto) {
 
 		CustomerDto customerDto = customerService.saveCustomer(customerSaveDto);
-
 		return ResponseEntity.ok(RestResponse.of(customerDto));
 	}
 
