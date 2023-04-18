@@ -39,7 +39,6 @@ public class CustomerController {
 	public ResponseEntity<RestResponse<CustomerDto>> findCustomerById(@PathVariable Long id) {
 
 		CustomerDto customerDto = customerService.findCustomerById(id);
-
 		return ResponseEntity.ok(RestResponse.of(customerDto));
 	}
 
