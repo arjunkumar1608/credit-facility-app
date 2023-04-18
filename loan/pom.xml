@@ -8,7 +8,7 @@
 		<version>2.6.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.credit.facilty.loan.app</groupId>
+	<groupId>com.credit.facility.loan.app</groupId>
 	<artifactId>loan</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>loan</name>
